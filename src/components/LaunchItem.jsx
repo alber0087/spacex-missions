@@ -1,12 +1,13 @@
 import { HiCalendar } from "react-icons/hi";
 import { Box, Flex, Text, Spacer, Tag, Button, Icon } from "@chakra-ui/react";
-// import dayjs from "dayjs";
+import "./style.css";
 import "dayjs/locale/es";
 import dayjs from "dayjs";
 
 export function LaunchItem(launch) {
   return (
-    <Box 
+    <Box
+      className="box" 
       bg="gray.100" 
       p={4} 
       m={4} 
