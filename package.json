@@ -1,7 +1,7 @@
 {
   "name": "spacex",
   "homepage": "https://alber0087.github.io/spacex-missions",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "predeploy": "npm run build",
