@@ -16,7 +16,7 @@ export function App() {
   return (
     <>
       <Image m={4} src={logo} width={300} />
-      <Heading align="center" as="h1" size="md" m={4}>
+      <Heading align="left" as="h1" size="md" m={4}>
         SpaceX Launches
       </Heading>
       <section>
